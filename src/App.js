@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 import MP3Loader from './components/Mp3Loader'
-import {handleFileSelect} from './helpers/FileLoader'
+import {handleFileSelect, handlePlayClick} from './helpers/FileLoader'
+import PlayButton from './components/PlayButton'
 
 const App = () => (
   <div>
-    <MP3Loader uploadClick={(e) => handleFileSelect(e)} /> 
+    <MP3Loader uploadClick={(e) => handleFileSelect(e)} />
+    <PlayButton onClick={() => handlePlayClick()} /> 
   </div>
 )
 

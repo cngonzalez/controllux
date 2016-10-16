@@ -19,7 +19,7 @@ var pausedAt;
 var paused;
 var buffer;
 
-function handlePlayClick() {
+export function handlePlayClick() {
   if (paused) {
     playSound(buffer, (pausedAt / 1000)) //add 1000 or so here to take care of delay? Or possibly at the startedAt var?
     paused = false;
