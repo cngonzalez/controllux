@@ -7,7 +7,15 @@
   },
   "dependencies": {
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-wavesurfer": "^0.8.1",
+    "recordrtc": "^5.4.0",
+    "redux": "^3.6.0",
+    "video.js": "^5.11.8",
+    "videojs-record": "^1.5.0",
+    "videojs-wavesurfer": "^1.2.6",
+    "wavesurfer.js": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
