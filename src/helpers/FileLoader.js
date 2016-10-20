@@ -46,7 +46,6 @@ function playSound(arraybuffer, startPoint) {
 }
 
 export function handleFileSelect(evt) {
-  console.log(evt)
   var files = evt.target.files; // FileList object
   playFile(files[0]);
 }
